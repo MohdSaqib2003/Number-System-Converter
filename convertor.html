@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pic2.jpg" type="image/x-icon">
+    <title>  convertor  </title>
+    <link rel="stylesheet" href="convertor_css.css">
+</head>
+<body>
+ 
+  <h1 class="head">Convertor</h1>
+
+<div class="convertor">
+    <select id="from">
+        <option > Decimal </option>
+        <option > Binary </option>
+        <option > Octal </option>
+        <option > Hexadecimal </option>
+    </select>
+
+     <span class="equal">=</span>
+    <input type="text" id="input" placeholder="Enter..."> <br><br>
+
+    <div class="gap">To</div>
+   
+    <select id="to">
+        <option > Decimal </option>
+        <option > Binary </option>
+        <option > Octal </option>
+        <option > Hexadecimal </option>
+      
+    </select>
+    <span class="equal">=</span>
+     <input type="text" id="output" readonly>
+</div>    
+   <br>
+
+   <div class="btn"> 
+        <button onclick="convert()" id="cnvrt" >convert</button>
+        <button onclick="clr()" id="clr" style="background-color: rgb(197, 40, 40);">clear</button>
+   </div>
+
+   
+<footer>
+    <div class="footer">
+      Made with <span class="heart" style="color:rgb(231, 28, 62);">  &#10084; </span> BY | SAQIB <br>
+      +91 95480 97513 <br>
+      mohdsaqibnavodaya@gmail.com
+    </div>
+  
+  </footer>
+</body>
+<script src="convertor_js.js"> </script>
+
+</html>

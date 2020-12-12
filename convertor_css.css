@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('bk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ .head{
+    text-align: center;
+    font-family: myfont;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(76, 235, 142);
+  }
+
+ @font-face {
+     font-family: myfont;
+     src: url("font.ttf");
+ }
+
+ .convertor{
+    margin-top:150px;
+    text-align: center;
+   
+ }
+ div select{
+     font-size: 30px;
+     outline: none;
+     border: none;
+     background-color: rgb(30, 160, 69);
+     border-radius: 10px;
+     padding: 5px 0px 5px 15px;
+     color: white;
+     font-family: myfont;
+ }
+ div select option{
+     font-size: 30px;
+     background-color: rgb(18, 149, 121);
+ }
+
+ input{
+     background-color: rgb(0, 0, 0);
+     border: none;
+     outline: none;
+     opacity: 0.6;
+     font-size: 30px;
+     color: white;
+     border-radius: 8px;
+     padding:5px 3px 5px 15px;
+ }
+ .equal{
+     font-size: 30px;
+ }
+ .gap{
+     font-size: 20px;
+     font-family: myfont;
+     color: cornsilk;
+     position: relative;
+     left: -210px;
+    
+ }
+ 
+ button{
+     outline: none;
+     border: none;
+     font-size: 20px;
+     font-family: myfont;
+     margin:15px;
+     color: white;
+     height:35px;
+     padding:auto;
+     border-radius: 7px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: rgb(8, 111, 247);
+     box-shadow: 1px 1px 1px white , -1px -1px 1px white;
+     align-self: center;
+ }
+
+ button:active{
+     background-color: rgb(6, 68, 138);
+ } 
+ .btn{
+     text-align: center;
+     
+ }
+ footer{
+    background-color: #57606f;
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 640px){ 
+     .gap{
+        left: 0px;
+        text-align: center;
+        margin: 10px;
+        color: rgb(36, 35, 35);
+     }
+     .equal{
+         display: none;
+     }
+    #input,#output,#to,#from{
+        width:300px;
+        margin-top: 5px;
+      
+    } 
+    .convertor{
+        margin-top: 100px;
+    }
+}
